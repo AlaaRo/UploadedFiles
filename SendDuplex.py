@@ -57,7 +57,7 @@ def sender():
             
 def reciever():
     s2 = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-    s2.connect((IP,4567)
+    s2.connect((IP,4567))
     print(f"Socket2 connected to {IP}")
     totalrecved = []
     try:
